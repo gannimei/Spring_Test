@@ -7,6 +7,6 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean id="screwDriver" class="com.netease.ScrewDriver" init-method="init" destroy-method="cleanup"></bean>
+	<bean id="screwDriver" class="com.netease.Spring_IOC.ScrewDriver"></bean>
 
 </beans>
