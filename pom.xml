@@ -9,8 +9,18 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+				<groupId>org.aspectj</groupId>
+				<artifactId>aspectjweaver</artifactId>
+				<version>1.8.13</version>
+			</dependency>
+			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
+				<version>4.3.13.RELEASE</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-aop</artifactId>
 				<version>4.3.13.RELEASE</version>
 			</dependency>
 			<dependency>
@@ -22,5 +32,6 @@
 	</dependencyManagement>
 	<modules>
 		<module>Spring_IOC</module>
+		<module>Spring_AOP</module>
 	</modules>
 </project>

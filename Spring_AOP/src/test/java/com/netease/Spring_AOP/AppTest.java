@@ -1,4 +1,4 @@
-package com.netease.Spring_IOC;
+package com.netease.Spring_AOP;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
