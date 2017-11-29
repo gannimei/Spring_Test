@@ -11,5 +11,7 @@
 	<bean id="loggingAspect" class="com.netease.Spring_AOP.LoggingAspect"></bean>
 	
 	<bean id="calculate" class="com.netease.Spring_AOP.Calculate"></bean>
+	
+	<bean id="userSerivce" class="com.netease.Spring_AOP.UserService"></bean>
 
 </beans>
