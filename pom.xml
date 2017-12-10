@@ -49,5 +49,6 @@
 		<module>Spring_AOP</module>
 		<module>Spring_JDBC</module>
     <module>Spring_Transaction</module>
+    <module>Spring_Mybatis</module>
   </modules>
 </project>
