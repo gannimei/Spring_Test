@@ -1,4 +1,4 @@
-package com.netease.Spring_JDBC;
+package com.netease.Spring_Transaction;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
