@@ -50,5 +50,6 @@
 		<module>Spring_JDBC</module>
     <module>Spring_Transaction</module>
     <module>Spring_Mybatis</module>
+    <module>Spring_Web</module>
   </modules>
 </project>
