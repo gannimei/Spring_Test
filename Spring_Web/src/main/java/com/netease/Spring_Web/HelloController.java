@@ -14,6 +14,7 @@ public class HelloController {
 	
 	@RequestMapping(value = "/spring")
 	public void spring(@RequestHeader("Accept") String accept, Writer writer) throws IOException {
+		System.out.println(accept);
 		writer.write(" accept: " + accept);
 	}
 	
